@@ -1,0 +1,26 @@
+models:
+  - name: vaccinations_per_capita
+    description: "vaccinations per capita"
+
+  - name: cases_per_capita
+    description: "cases per capita"
+
+  - name: covid_stats_per_municipality
+    description: "stats"
+    columns:
+      - name: province
+        description: "The primary key for this table"
+        tests:
+          - numeric
+
+sources:
+- name: tpch
+  database: eduvision_dbt
+  schema: public
+  tables: 
+  - name: CASES_MUNI
+  - name: CASES_MUNI_CUM
+  - name: POPULATION
+  - name: SCHEDULE
+  - name: TIMESTAMPS
+  - name: VACC_MUNI_CUM
