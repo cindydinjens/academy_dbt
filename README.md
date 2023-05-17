@@ -9,6 +9,8 @@ the dbt course for Eduvision.
 
 This specific exercise is focused on dbt.
 
+New line added to readme.
+
 To start click on "Open in Gitpod" button
 
 Once it is started, run the script ```./create_profiles.sh``` which will generate connection

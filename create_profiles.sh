@@ -57,7 +57,7 @@ covid:
   outputs:
     dev:
       account: yw41113.eu-west-1
-      database: academy_dbt
+      database: eduvision_dbt
       password: $password
       role: student
       schema: $schema

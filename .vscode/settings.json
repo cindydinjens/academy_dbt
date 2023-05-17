@@ -9,5 +9,6 @@
             "database": "postgres",
             "username": "gitpod"
         }
-    ]
+    ],
+    "dbt.queryLimit": 500
 }
